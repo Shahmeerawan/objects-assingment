@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Objects</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="nav_bar ">
+    <select class="select" id="valueSearch">
+   <option value="">Select any brand</option>
+    </select>
+    <input type="text" class="input_model"  id="input_model">
+
+    <button type="button" class="srchbrn" onclick="geetvalue()"><i class="fa-solid fa-magnifying-glass"></i>Search</button>
+    <p class="result" id="result"></p>
+    </div>
+    <div class="sugg">
+    <p>suggested names : apple{ iphonex , iphonexr , iphone12 , iphone13 , iphone13mini }  <br> infinix { hot10s , hot12play , note10 , note12  }  <br>  samsung { note8 , note9 , a8 , j5 , coreprime  } <br>  vivo  { y55 , x80 , v23 ,  v23e , v5 }</p>
+    </div>
+    <!-- <marquee behavior="" width="100%" direction="left" id="marq"> -->
+
+    </marquee>
+
+    <div class="search_main">
+      <div id="card" class="card">
+        <div  class="card" style="width: 18rem;">
+          <img id="imageeee" src="iphone12white.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 id="camera" class="card-title">Camera : </h5>
+            <h5 id="meemory" class="card-title"></h5>
+            <h5 id="colors" class="card-title"></h5>
+          </div>
+        </div>
+      </div>
+      <div id="nothing" class="nothing"><p><i id="srchbtn" class="fa-solid fa-magnifying-glass"></i> Search something</p></div>
+    </div>
+
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://kit.fontawesome.com/6b3a62954b.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

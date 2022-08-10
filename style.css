@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(235, 235, 235);
+  
+}
+.main {
+  width: 80%;
+  height: fit-content;
+  background-color: rgb(245, 239, 239);
+}
+.blk {
+  padding: 5px 10px 5px 10px;
+  background-color: black;
+}
+.wht {
+  padding: 5px 10px 5px 10px;
+  background-color: white;
+}
+.sugg{
+  /* display: flex;
+  justify-content: center; */
+}
+.sugg > p {
+  text-align: center;
+  font-size: small;
+  color: grey;
+}
+.select{
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 10px;
+}
+.input_model{
+  border-radius: 20px !important;
+  padding: 10px 27px 5px 7px;
+  border: 1px solid gray;
+  
+
+}
+.srchbrn{
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+
+
+}
+.srchbrn:{
+ color: white;
+  background-color: black;
+
+
+}
+
+.nav_bar {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.result {
+  display: none;
+}
+.search_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+#card{
+  visibility: hidden;
+  display: inline-block ;
+}
+.nothing{
+  font-size: 25px;
+  color: gray;
+  opacity: 0.5;
+  position: absolute;
+}
+#srchbtn{
+    padding-top: px;
+}
